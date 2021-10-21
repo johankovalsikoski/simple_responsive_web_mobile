@@ -1,3 +1,4 @@
+import 'package:about_me/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class CallToActionMobile extends StatelessWidget {
@@ -14,7 +15,7 @@ class CallToActionMobile extends StatelessWidget {
         style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white),
       ),
       decoration: BoxDecoration(
-          color: Color.fromARGB(255, 31, 229, 146),
+          color: primaryColor,
           borderRadius: BorderRadius.circular(5)
       ),
     );
